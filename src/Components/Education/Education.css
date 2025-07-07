@@ -1,0 +1,140 @@
+:root {
+    --bg-color: #0F172A;
+    --navbar-color: #1E293B;
+    --text-primary: #F1F5F9;
+    --text-secondary: #94A3B8;
+    --accent-blue: #38BDF8;
+    --accent-indigo: #6366F1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.edu-section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.timeline-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: repeating-linear-gradient(to bottom,
+            #007bff,
+            #007bff 10px,
+            transparent 10px,
+            transparent 20px);
+    z-index: 0;
+}
+
+.timeline-item {
+    padding: 20px 40px;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.timeline-item .content {
+    background: var(--navbar-color);
+    color: var(--text-primary);
+    padding: 20px;
+    border-radius: 20px;
+    border-left: 5px solid #007bff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeSlide 1s ease forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.timeline-item.left {
+    right: 180px;
+    text-align: left;
+    width: 70%;
+}
+
+.timeline-item.right {
+    left: 50%;
+    text-align: left;
+    width: 70%;
+}
+
+.timeline-item.left .content {
+    border-left: none;
+    border-right: 5px solid #007bff;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border: 3px solid white;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.timeline-item.left::before {
+    right: -10px;
+}
+
+.timeline-item.right::before {
+    left: -10px;
+}
+
+@keyframes fadeSlide {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .timeline-item,
+    .timeline-item.right,
+    .timeline-item.left {
+        width: 100%;
+        left: 0;
+        text-align: left;
+    }
+
+    .timeline-item.left .content,
+    .timeline-item.right .content {
+        border-left: 5px solid #007bff;
+        border-right: none;
+    }
+
+    .timeline-item::before {
+        left: 11px !important;
+        right: auto;
+    }
+
+    .timeline-container::before {
+        left: 20px;
+        transform: none;
+    }
+
+    .edu-section {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}

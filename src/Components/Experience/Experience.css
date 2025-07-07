@@ -1,0 +1,88 @@
+:root {
+    --bg-color: #0F172A;
+    --navbar-color: #1E293B;
+    --text-primary: #F1F5F9;
+    --text-secondary: #94A3B8;
+    --accent-blue: #38BDF8;
+    --accent-indigo: #6366F1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.exp-section {
+    /* min-height: 100vh; */
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2.exp-heading {
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.exp-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: var(--accent-blue);
+}
+
+.exp-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 25px 30px;
+    border-left: 8px solid var(--accent-indigo);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.exp-card-right {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 25px 30px;
+    border-right: 8px solid var(--accent-indigo);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.exp-heading {
+    font-size: 1.5rem;
+    color: var(--accent-blue);
+    margin-bottom: 8px;
+}
+
+.exp-timeline {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+}
+
+.exp-list {
+    list-style: disc;
+    padding-left: 20px;
+    color: var(--text-primary);
+    text-align: left;
+}
+
+@media (max-width: 576px) {
+    .exp-details {
+        width: 90%;
+    }
+
+    .exp-section {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}

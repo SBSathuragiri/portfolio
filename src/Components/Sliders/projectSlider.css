@@ -1,0 +1,58 @@
+.LR-card {
+    background-color: #1E293B;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+    border-top: 8px solid var(--accent-indigo);
+}
+
+.LR-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.LR-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.LR-technology {
+    color: #F1F5F9;
+    font-weight: bold;
+}
+
+.LR-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #F1F5F9;
+    margin-bottom: 10px;
+}
+
+.LR-description {
+    font-size: 1rem;
+    color: #F1F5F9;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.slider-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.slick-slide>div {
+    padding: 0 15px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    color: var(--accent-indigo) !important;
+}
