@@ -22,9 +22,9 @@ export default function Header() {
               <li className="nav-item"><a className="nav-link" onClick={toggleMenu} href="#home">Home</a></li>
               <li className="nav-item"><a className="nav-link" onClick={toggleMenu} href="#about">About</a></li>
               <li className="nav-item"><a className="nav-link" onClick={toggleMenu} href="#experience">Experience</a></li>
+              <li className="nav-item"><a className="nav-link" onClick={toggleMenu} href="#project">Projects</a></li>
               <li className="nav-item"><a className="nav-link" onClick={toggleMenu} href="#skills">Skills</a></li>
               <li className="nav-item"><a className="nav-link" onClick={toggleMenu} href="#education">Education</a></li>
-              <li className="nav-item"><a className="nav-link" onClick={toggleMenu} href="#project">Projects</a></li>
               <li className="nav-item"><a className="nav-link" onClick={toggleMenu} href="#contact">Contact</a></li>
             </ul>
           </div>
