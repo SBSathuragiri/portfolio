@@ -16,7 +16,7 @@ export default function Home() {
 
           <div className="mt-4">
             <a
-              href="www.linkedin.com/in/sathuragiri22"
+              href="www.linkedin.com/in/sathuragiri22/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-primary me-3"
