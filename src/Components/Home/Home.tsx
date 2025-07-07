@@ -12,7 +12,7 @@ export default function Home() {
       >
         <div className="container text-center profile-container">
           <h1 className="display-4 fw-bold">Hi, I'm Sathuragiri</h1>
-          <p className="lead">Full Stack Developer | React | TypeScript </p>
+          <p className="lead">Full Stack Developer</p>
 
           <div className="mt-4">
             <a
