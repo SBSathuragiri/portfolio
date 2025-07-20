@@ -46,7 +46,7 @@ export default function Education() {
               <h3>Kalasalingam Academy of Research and Education</h3>
               <span>Sep 2022 - Present</span>
               <p>Bachelor of Technology - Computer Science Engineering</p>
-              <p>CGPA: 7.76 (As of 6th Sem)</p>
+              <p>CGPA: 7.77 (As of 6th Sem)</p>
             </div>
           </div>
         </motion.div>
