@@ -66,7 +66,7 @@ export default function Experience() {
 
         <div className='exp-card-right'>
           <h2 className='exp-heading'>Greenitive Techonology, Internship</h2>
-          <p className='exp-timeline'>May 2024 - July 2024</p>
+          <p className='exp-timeline'>April 2025 - May 2025</p>
           <ul className='exp-list'>
             <li>Coded and Maintained the scalable web application using Angular.</li>
             <li>Add additional future in the main project make the easy workflow to users.</li>
@@ -77,7 +77,7 @@ export default function Experience() {
 
         <div className='exp-card'>
           <h2 className='exp-heading'>Greenitive Techonology, Internship</h2>
-          <p className='exp-timeline'>April 2025 - May 2025</p>
+          <p className='exp-timeline'>May 2024 - July 2024</p>
           <ul className='exp-list'>
             <li>Built and maintained scalable web applications using Angular.</li>
             <li>Collaborated with senior developers to enhance the design of the company's main product.</li>
