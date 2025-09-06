@@ -68,12 +68,10 @@ export default function Experience() {
           <h2 className='exp-heading'>Greenitive Techonology, Internship</h2>
           <p className='exp-timeline'>May 2024 - July 2024</p>
           <ul className='exp-list'>
-            <li>Built and maintained scalable web applications using Angular.</li>
-            <li>Collaborated with senior developers to enhance the design of the company's main product.</li>
-            <li>Implemented responsive design techniques to ensure optimal performance across various devices and screen sizes.</li>
-            <li>Participated in team meetings to improve project workflows.</li>
-            <li>Gained hands-on experience with version control systems like Git for efficient collaboration.</li>
-            <li><strong>Technologies Used: Angular, Typescript, HTML, CSS, Bootstrap</strong></li>
+            <li>Coded and Maintained the scalable web application using Angular.</li>
+            <li>Add additional future in the main project make the easy workflow to users.</li>
+            <li>Build and redesign the company offical website using React js.</li>
+            <li><strong>Technologies Used: React.js, Angular, CSS, Typescript, Bootstarp</strong></li>
           </ul>
         </div>
 
@@ -81,10 +79,12 @@ export default function Experience() {
           <h2 className='exp-heading'>Greenitive Techonology, Internship</h2>
           <p className='exp-timeline'>April 2025 - May 2025</p>
           <ul className='exp-list'>
-            <li>Coded and Maintained the scalable web application using Angular.</li>
-            <li>Add additional future in the main project make the easy workflow to users.</li>
-            <li>Build and redesign the company offical website using React js.</li>
-            <li><strong>Technologies Used: React.js, Angular, CSS, Typescript, Bootstarp</strong></li>
+            <li>Built and maintained scalable web applications using Angular.</li>
+            <li>Collaborated with senior developers to enhance the design of the company's main product.</li>
+            <li>Implemented responsive design techniques to ensure optimal performance across various devices and screen sizes.</li>
+            <li>Participated in team meetings to improve project workflows.</li>
+            <li>Gained hands-on experience with version control systems like Git for efficient collaboration.</li>
+            <li><strong>Technologies Used: Angular, Typescript, HTML, CSS, Bootstrap</strong></li>
           </ul>
         </div>
 
